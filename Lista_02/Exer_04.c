@@ -2,10 +2,16 @@
 
 int main()
 {
+
     
-for(int i=10; i>=1; i--){
-    printf("%i\n", i);
-}   
+    //laços de repetição utilizando while
+    int x=1;
+    while(x <= 10){
+        printf("%i\n", x );
+        
+        x ++; //ou x = x + 1
+    }
+    
     
     
 }

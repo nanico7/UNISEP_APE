@@ -2,16 +2,13 @@
 
 int main()
 {
-
     
-    //laços de repetição utilizando while
-    int x=1;
-    while(x <= 10){
-        printf("%i\n", x );
-        
-        x ++; //ou x = x + 1
-    }
-    
+    //laço de repetição do while
+    int y=1;
+    do{
+        printf("%i\n", y);
+        y++;
+    } while(y<= 10);
     
     
 }

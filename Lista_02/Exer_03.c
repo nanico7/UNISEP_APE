@@ -3,12 +3,9 @@
 int main()
 {
     
-    //laço de repetição do while
-    int y=1;
-    do{
-        printf("%i\n", y);
-        y++;
-    } while(y<= 10);
+for(int i=10; i>=1; i--){
+    printf("%i\n", i);
+}   
     
     
 }
